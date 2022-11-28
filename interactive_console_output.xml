@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on darwin)" generated="20221128 16:11:20.432" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="/Users/jeanneendres/.vscode/extensions/robocorp.robotframework-lsp-1.5.0/src/robotframework_ls/vendored/robotframework_interactive/robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20221128 16:11:28.568" endtime="20221128 16:11:34.745"/>
+</kw>
+<kw name="Open Available Browser (RPA.Browser.Selenium)*">
+<msg timestamp="20221128 16:12:21.391" level="FAIL">No keyword with name 'Open Available Browser (RPA.Browser.Selenium)*' found.</msg>
+<status status="FAIL" starttime="20221128 16:12:21.390" endtime="20221128 16:12:21.391"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20221128 16:15:21.088" endtime="20221128 16:15:27.496"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20221128 16:16:37.829" endtime="20221128 16:16:43.319"/>
+</kw>
+<kw name="Open User Browser" library="RPA.Browser.Selenium">
+<arg>url</arg>
+<doc>Open URL with user's default browser</doc>
+<status status="PASS" starttime="20221128 16:18:42.968" endtime="20221128 16:18:43.285"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20221128 16:23:11.329" endtime="20221128 16:23:17.798"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20221128 16:26:02.286" endtime="20221128 16:26:08.453"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20221128 16:29:08.048" endtime="20221128 16:29:15.580"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20221128 16:29:54.091" endtime="20221128 16:30:01.121"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20221128 16:30:21.604" endtime="20221128 16:30:27.768"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20221128 16:40:49.464" endtime="20221128 16:40:57.319"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>username</arg>
+<arg>maria</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221128 16:42:24.221" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.121)
+Stacktrace:
+0   chromedriver                        0x00000001045482c8 chromedriver + 4752072
+1   chromedriver                        0x00000001044c8463 chromedriver + 4228195
+2   chromedriver                        0x000000010412bb18 chromedriver + 441112
+3   chromedriver                        0x0000000104108210 chromedriver + 295440
+4   chromedriver                        0x000000010418de3d chromedriver + 843325
+5   chromedriver                        0x00000001041a1719 chromedriver + 923417
+6   chromedriver                        0x0000000104189b33 chromedriver + 826163
+7   chromedriver                        0x000000010415a9fd chromedriver + 633341
+8   chromedriver                        0x000000010415c051 chromedriver + 639057
+9   chromedriver                        0x000000010451530e chromedriver + 4543246
+10  chromedriver                        0x0000000104519a88 chromedriver + 4561544
+11  chromedriver                        0x00000001045216df chromedriver + 4593375
+12  chromedriver                        0x000000010451a8fa chromedriver + 4565242
+13  chromedriver                        0x00000001044f02cf chromedriver + 4391631
+14  chromedriver                        0x00000001045395b8 chromedriver + 4691384
+15  chromedriver                        0x0000000104539739 chromedriver + 4691769
+16  chromedriver                        0x000000010454f81e chromedriver + 4782110
+17  libsystem_pthread.dylib             0x00007ff8137ef259 _pthread_start + 125
+18  libsystem_pthread.dylib             0x00007ff8137eac7b thread_start + 15
+</msg>
+<status status="FAIL" starttime="20221128 16:42:24.213" endtime="20221128 16:42:24.225"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20221128 16:42:36.748" endtime="20221128 16:42:43.666"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20221128 16:43:29.853" endtime="20221128 16:43:35.671"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>username</arg>
+<arg>maria</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20221128 16:43:41.820" endtime="20221128 16:43:42.214"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>password</arg>
+<arg>thoushallnotpass</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20221128 16:44:31.015" endtime="20221128 16:44:31.218"/>
+</kw>
+<kw name="Click Button" library="RPA.Browser.Selenium">
+<arg>submit</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221128 17:14:42.989" level="FAIL">
