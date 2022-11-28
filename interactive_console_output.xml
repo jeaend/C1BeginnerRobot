@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on darwin)" generated="20221128 15:49:43.893" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="/Users/jeanneendres/.vscode/extensions/robocorp.robotframework-lsp-1.5.0/src/robotframework_ls/vendored/robotframework_interactive/robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Browser" library="RPA.Browser.Selenium">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221128 15:49:53.346" level="FAIL">TypeError: can only concatenate str (not "bytes") to str</msg>
+<status status="FAIL" starttime="20221128 15:49:53.345" endtime="20221128 15:49:53.348"/>
+</kw>
+<kw name="Open Browser" library="RPA.Browser.Selenium">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221128 15:50:04.058" level="FAIL">TypeError: can only concatenate str (not "bytes") to str</msg>
+<status status="FAIL" starttime="20221128 15:50:04.056" endtime="20221128 15:50:04.058"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<msg timestamp="20221128 15:51:56.992" level="FAIL">BrowserNotFoundError: Failed to start a browser:
+- Chrome: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+0   chromedriver                        0x0000000104f4b2c8 chromedriver + 4752072
+1   chromedriver                        0x0000000104ecb463 chromedriver + 4228195
+2   chromedriver                        0x0000000104b2eb18 chromedriver + 441112
+3   chromedriver                        0x0000000104b5474d chromedriver + 595789
+4   chromedriver                        0x0000000104b51e3c chromedriver + 585276
+5   chromedriver                        0x0000000104b94c43 chromedriver + 859203
+6   chromedriver                        0x0000000104b9474f chromedriver + 857935
+7   chromedriver                        0x0000000104b8cb33 chromedriver + 826163
+8   chromedriver                        0x0000000104b5d9fd chromedriver + 633341
+9   chromedriver                        0x0000000104b5f051 chromedriver + 639057
+10  chromedriver                        0x0000000104f1830e chromedriver + 4543246
+11  chromedriver                        0x0000000104f1ca88 chromedriver + 4561544
+12  chromedriver                        0x0000000104f246df chromedriver + 4593375
+13  chromedriver                        0x0000000104f1d8fa chromedriver + 4565242
+14  chromedriver                        0x0000000104ef32cf chromedriver + 4391631
+15  chromedriver                        0x0000000104f3c5b8 chromedriver + 4691384
+16  chromedriver                        0x0000000104f3c739 chromedriver + 4691769
+17  chromedriver                        0x0000000104f5281e chromedriver + 4782110
+18  libsystem_pthread.dylib             0x00007ff8137ef259 _pthread_start + 125
+19  libsystem_pthread.dylib             0x00007ff8137eac7b thread_start + 15
+
+- Firefox: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line
+
+- ChromiumEdge: Message: unknown error: cannot find msedge binary
+Stacktrace:
+0   msedgedriver                        0x0000000100de48f8 msedgedriver + 4843768
+1   msedgedriver                        0x0000000100d61633 msedgedriver + 4306483
+2   msedgedriver                        0x00000001009b3158 msedgedriver + 446808
+3   msedgedriver                        0x00000001009dcca9 msedgedriver + 617641
+4   msedgedriver                        0x00000001009d98eb msedgedriver + 604395
+5   msedgedriver                        0x0000000100a1deac msedgedriver + 884396
+6   msedgedriver                        0x0000000100a1d48c msedgedriver + 881804
+7   msedgedriver                        0x0000000100a14fd3 msedgedriver + 847827
+8   msedgedriver                        0x00000001009e600d msedgedriver + 655373
+9   msedgedriver                        0x00000001009e7641 msedgedriver + 661057
+10  msedgedriver                        0x0000000100db097e msedgedriver + 4630910
+11  msedgedriver                        0x0000000100db4488 msedgedriver + 4646024
+12  msedgedriver                        0x0000000100db4c1d msedgedriver + 4647965
+13  msedgedriver                        0x0000000100dbc48f msedgedriver + 4678799
+14  msedgedriver                        0x0000000100db530c msedgedriver + 4649740
+15  msedgedriver                        0x0000000100d8d7dd msedgedriver + 4487133
+16  msedgedriver                        0x0000000100dd6608 msedgedriver + 4785672
+17  msedgedriver                        0x0000000100dd6727 msedgedriver + 4785959
+18  msedgedriver                        0x0000000100dec537 msedgedriver + 4875575
+19  libsystem_pthread.dylib             0x00007ff8137ef259 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff8137eac7b thread_start + 15
+
+- Safari: Unsupported browser 'Safari'! (choose from: ['chrome', 'firefox', 'gecko', 'mozilla', 'opera', 'edge', 'chromiumedge', 'ie'])
+</msg>
+<status status="FAIL" starttime="20221128 15:51:42.370" endtime="20221128 15:51:56.992"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<msg timestamp="20221128 15:53:17.796" level="FAIL">
