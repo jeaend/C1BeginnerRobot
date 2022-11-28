@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.9.13 on darwin)" generated="20221128 16:33:13.630" rpa="true" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.9.13 on darwin)" generated="20221128 17:01:30.462" rpa="true" schemaversion="3">
 <suite id="s1" name="Tasks" source="/Users/jeanneendres/Documents/UNIVERSITY/Bachelorarbeit/Robots /Level _1_Beginners_Course/my-rsb-robot/tasks.robot">
 <test id="s1-t1" name="Insert the sales data for the week and export it as a PD" line="6">
 <kw name="Open the intranet website">
@@ -8,24 +8,46 @@
 <doc>Attempts to open a browser on the user's device from a set of
 supported browsers. Automatically downloads a corresponding webdriver
 if none is already installed.</doc>
-<msg timestamp="20221128 16:33:14.098" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
-<msg timestamp="20221128 16:33:20.493" level="INFO">Created Chrome browser with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox</msg>
-<msg timestamp="20221128 16:33:20.494" level="INFO" html="true">&lt;p&gt;Attempted combinations:&lt;/p&gt;&lt;div class="doc"&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Browser&lt;/th&gt;&lt;th&gt;Download&lt;/th&gt;&lt;th&gt;Error&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</msg>
-<msg timestamp="20221128 16:33:20.494" level="INFO">Opening url 'https://robotsparebinindustries.com/'</msg>
-<status status="PASS" starttime="20221128 16:33:14.097" endtime="20221128 16:33:22.873"/>
+<msg timestamp="20221128 17:01:31.356" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20221128 17:01:37.201" level="INFO">Created Chrome browser with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox</msg>
+<msg timestamp="20221128 17:01:37.202" level="INFO" html="true">&lt;p&gt;Attempted combinations:&lt;/p&gt;&lt;div class="doc"&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Browser&lt;/th&gt;&lt;th&gt;Download&lt;/th&gt;&lt;th&gt;Error&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</msg>
+<msg timestamp="20221128 17:01:37.202" level="INFO">Opening url 'https://robotsparebinindustries.com/'</msg>
+<status status="PASS" starttime="20221128 17:01:31.354" endtime="20221128 17:01:38.378"/>
 </kw>
-<status status="PASS" starttime="20221128 16:33:14.097" endtime="20221128 16:33:22.874"/>
+<status status="PASS" starttime="20221128 17:01:31.352" endtime="20221128 17:01:38.379"/>
+</kw>
+<kw name="Log in">
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>username</arg>
+<arg>maria</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221128 17:01:38.383" level="INFO">Typing text 'maria' into text field 'username'.</msg>
+<status status="PASS" starttime="20221128 17:01:38.382" endtime="20221128 17:01:38.926"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>password</arg>
+<arg>thoushallnotpass</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221128 17:01:38.928" level="INFO">Typing text 'thoushallnotpass' into text field 'password'.</msg>
+<status status="PASS" starttime="20221128 17:01:38.927" endtime="20221128 17:01:39.061"/>
+</kw>
+<kw name="Submit Form" library="RPA.Browser.Selenium">
+<doc>Submits a form identified by ``locator``.</doc>
+<msg timestamp="20221128 17:01:39.063" level="INFO">Submitting form 'None'.</msg>
+<status status="PASS" starttime="20221128 17:01:39.062" endtime="20221128 17:01:39.094"/>
+</kw>
+<status status="PASS" starttime="20221128 17:01:38.380" endtime="20221128 17:01:39.095"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>Done.</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221128 16:33:22.876" level="INFO">Done.</msg>
-<status status="PASS" starttime="20221128 16:33:22.875" endtime="20221128 16:33:22.876"/>
+<msg timestamp="20221128 17:01:39.096" level="INFO">Done.</msg>
+<status status="PASS" starttime="20221128 17:01:39.096" endtime="20221128 17:01:39.097"/>
 </kw>
-<status status="PASS" starttime="20221128 16:33:14.096" endtime="20221128 16:33:22.877"/>
+<status status="PASS" starttime="20221128 17:01:31.348" endtime="20221128 17:01:39.098"/>
 </test>
 <doc>Insert the sales data for the week and export it as a PDF</doc>
-<status status="PASS" starttime="20221128 16:33:13.634" endtime="20221128 16:33:22.879"/>
+<status status="PASS" starttime="20221128 17:01:30.471" endtime="20221128 17:01:39.100"/>
 </suite>
 <statistics>
 <total>
