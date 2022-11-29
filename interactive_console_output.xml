@@ -129,4 +129,128 @@ if none is already installed.</doc>
 <kw name="Click Button" library="RPA.Browser.Selenium">
 <arg>submit</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<msg timestamp="20221128 17:14:42.989" level="FAIL">
+<msg timestamp="20221128 17:14:42.989" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.121)
+Stacktrace:
+0   chromedriver                        0x00000001053642c8 chromedriver + 4752072
+1   chromedriver                        0x00000001052e4463 chromedriver + 4228195
+2   chromedriver                        0x0000000104f47b18 chromedriver + 441112
+3   chromedriver                        0x0000000104f24210 chromedriver + 295440
+4   chromedriver                        0x0000000104fa9e3d chromedriver + 843325
+5   chromedriver                        0x0000000104fbd719 chromedriver + 923417
+6   chromedriver                        0x0000000104fa5b33 chromedriver + 826163
+7   chromedriver                        0x0000000104f769fd chromedriver + 633341
+8   chromedriver                        0x0000000104f78051 chromedriver + 639057
+9   chromedriver                        0x000000010533130e chromedriver + 4543246
+10  chromedriver                        0x0000000105335a88 chromedriver + 4561544
+11  chromedriver                        0x000000010533d6df chromedriver + 4593375
+12  chromedriver                        0x00000001053368fa chromedriver + 4565242
+13  chromedriver                        0x000000010530c2cf chromedriver + 4391631
+14  chromedriver                        0x00000001053555b8 chromedriver + 4691384
+15  chromedriver                        0x0000000105355739 chromedriver + 4691769
+16  chromedriver                        0x000000010536b81e chromedriver + 4782110
+17  libsystem_pthread.dylib             0x00007ff8137ef259 _pthread_start + 125
+18  libsystem_pthread.dylib             0x00007ff8137eac7b thread_start + 15
+</msg>
+<status status="FAIL" starttime="20221128 17:14:42.968" endtime="20221128 17:14:42.991"/>
+</kw>
+<kw name="Submit Form" library="RPA.Browser.Selenium">
+<doc>Submits a form identified by ``locator``.</doc>
+<msg timestamp="20221128 17:17:52.086" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.121)
+Stacktrace:
+0   chromedriver                        0x00000001053642c8 chromedriver + 4752072
+1   chromedriver                        0x00000001052e4463 chromedriver + 4228195
+2   chromedriver                        0x0000000104f47b18 chromedriver + 441112
+3   chromedriver                        0x0000000104f24210 chromedriver + 295440
+4   chromedriver                        0x0000000104fa9e3d chromedriver + 843325
+5   chromedriver                        0x0000000104fbd719 chromedriver + 923417
+6   chromedriver                        0x0000000104fa5b33 chromedriver + 826163
+7   chromedriver                        0x0000000104f769fd chromedriver + 633341
+8   chromedriver                        0x0000000104f78051 chromedriver + 639057
+9   chromedriver                        0x000000010533130e chromedriver + 4543246
+10  chromedriver                        0x0000000105335a88 chromedriver + 4561544
+11  chromedriver                        0x000000010533d6df chromedriver + 4593375
+12  chromedriver                        0x00000001053368fa chromedriver + 4565242
+13  chromedriver                        0x000000010530c2cf chromedriver + 4391631
+14  chromedriver                        0x00000001053555b8 chromedriver + 4691384
+15  chromedriver                        0x0000000105355739 chromedriver + 4691769
+16  chromedriver                        0x000000010536b81e chromedriver + 4782110
+17  libsystem_pthread.dylib             0x00007ff8137ef259 _pthread_start + 125
+18  libsystem_pthread.dylib             0x00007ff8137eac7b thread_start + 15
+</msg>
+<status status="FAIL" starttime="20221128 17:17:52.081" endtime="20221128 17:17:52.086"/>
+</kw>
+<kw name="Open the intranet website">
+<msg timestamp="20221128 17:17:58.753" level="FAIL">User keyword 'Open the intranet website' contains no keywords.</msg>
+<status status="FAIL" starttime="20221128 17:17:58.753" endtime="20221128 17:17:58.753"/>
+</kw>
+<kw name="Open the intranet website">
+<msg timestamp="20221128 17:18:03.358" level="FAIL">User keyword 'Open the intranet website' contains no keywords.</msg>
+<status status="FAIL" starttime="20221128 17:18:03.357" endtime="20221128 17:18:03.358"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20221128 17:18:19.471" endtime="20221128 17:18:26.391"/>
+</kw>
+<kw name="https://robotsparebinindustries.com/">
+<msg timestamp="20221128 17:18:27.503" level="FAIL">No keyword with name 'https://robotsparebinindustries.com/' found.</msg>
+<status status="FAIL" starttime="20221128 17:18:27.502" endtime="20221128 17:18:27.503"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>password</arg>
+<arg>thoushallnotpass</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20221128 17:18:34.676" endtime="20221128 17:18:35.180"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>username</arg>
+<arg>maria</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20221128 17:19:03.754" endtime="20221128 17:19:03.831"/>
+</kw>
+<kw name="Submit Form" library="RPA.Browser.Selenium">
+<doc>Submits a form identified by ``locator``.</doc>
+<status status="PASS" starttime="20221128 17:19:10.365" endtime="20221128 17:19:10.410"/>
+</kw>
+<kw name="Select From List By Value" library="RPA.Browser.Selenium">
+<arg>salestarget</arg>
+<arg>10000</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<msg timestamp="20221128 17:27:22.267" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.121)
+Stacktrace:
+0   chromedriver                        0x00000001007012c8 chromedriver + 4752072
+1   chromedriver                        0x0000000100681463 chromedriver + 4228195
+2   chromedriver                        0x00000001002e4b18 chromedriver + 441112
+3   chromedriver                        0x00000001002c1210 chromedriver + 295440
+4   chromedriver                        0x0000000100346e3d chromedriver + 843325
+5   chromedriver                        0x000000010035a719 chromedriver + 923417
+6   chromedriver                        0x0000000100342b33 chromedriver + 826163
+7   chromedriver                        0x00000001003139fd chromedriver + 633341
+8   chromedriver                        0x0000000100315051 chromedriver + 639057
+9   chromedriver                        0x00000001006ce30e chromedriver + 4543246
+10  chromedriver                        0x00000001006d2a88 chromedriver + 4561544
+11  chromedriver                        0x00000001006da6df chromedriver + 4593375
+12  chromedriver                        0x00000001006d38fa chromedriver + 4565242
+13  chromedriver                        0x00000001006a92cf chromedriver + 4391631
+14  chromedriver                        0x00000001006f25b8 chromedriver + 4691384
+15  chromedriver                        0x00000001006f2739 chromedriver + 4691769
+16  chromedriver                        0x000000010070881e chromedriver + 4782110
+17  libsystem_pthread.dylib             0x00007ff8137ef259 _pthread_start + 125
+18  libsystem_pthread.dylib             0x00007ff8137eac7b thread_start + 15
+</msg>
+<status status="FAIL" starttime="20221128 17:27:22.258" endtime="20221128 17:27:22.268"/>
+</kw>
+<kw name="Wait For Condition" library="RPA.Browser.Selenium">
+<arg>timeout 2000</arg>
+<doc>Waits until ``condition`` is true or ``timeout`` expires.</doc>
+<msg timestamp="20221129 09:14:53.580" level="FAIL">ValueError: Condition 'timeout 2000' did not have mandatory 'return'.</msg>
+<status status="FAIL" starttime="20221129 09:14:53.561" endtime="20221129 09:14:53.582"/>
+</kw>
