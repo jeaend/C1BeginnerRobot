@@ -11,7 +11,6 @@ Insert the sales data for the week and export it as a PDF
     Log in 
     Download the Excel file
     Fill the form using the data from the Excel file
-    Wait Until Page Contains Element    id:submit
     Collect the results
     Log    Done.
 
@@ -46,4 +45,4 @@ Fill and submit Form for one person
     Click Button    Submit
 
 Collect the results
-    
+    Screenshot    css:div.sales-summary    ${OUTPUT_DIR}${/}sales_summary.png
